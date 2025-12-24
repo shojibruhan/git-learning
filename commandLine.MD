@@ -1,0 +1,5 @@
+## Remove
+
+```
+rm -rf <fileName>
+```
