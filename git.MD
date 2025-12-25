@@ -29,11 +29,45 @@ From staging area: A file is upload to staged/ commited. Now want to `Untracked`
 git rm --cached <fileName>
 ```
 
-## Changing branch
+## Branch
+
+### 1. Changing branch
 
 ```
 git switch <branchName>
 
 <!-- best way -->
 git checkout <branchName>
+```
+
+### 2. Changing Name (but first go to that specific branch)
+
+```
+git branch -m <new_name>
+```
+
+### 3. Delete Branch
+
+- can recover after delete (safe option)
+
+```
+git branch -d <branch_name>
+```
+
+- Delete permanently.
+
+```
+git branch -D <branch_name>
+```
+
+## Merge
+
+```
+git merge <branch_name>
+```
+
+### Abort merge
+
+```
+git merge --abort
 ```
