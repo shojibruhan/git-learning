@@ -28,3 +28,12 @@ From staging area: A file is upload to staged/ commited. Now want to `Untracked`
 ```
 git rm --cached <fileName>
 ```
+
+## Changing branch
+
+```
+git switch <branchName>
+
+<!-- best way -->
+git checkout <branchName>
+```
