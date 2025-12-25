@@ -71,3 +71,31 @@ git merge <branch_name>
 ```
 git merge --abort
 ```
+
+## Stash
+
+**Blog:** [10 Stash command by Tapash Audhikari](https://blog.greenroots.info/10-git-stash-commands-every-developer-should-know)
+
+## 1. Basic
+
+```
+git stash
+```
+
+or
+
+```
+git stash save <message>
+```
+
+### 2. show stashed line
+
+```
+git stash show -p
+```
+
+### 3. pull the stashed line
+
+```
+git stash pop
+```
