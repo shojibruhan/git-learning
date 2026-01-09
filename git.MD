@@ -99,3 +99,10 @@ git stash show -p
 ```
 git stash pop
 ```
+
+### Command to Push All Branches  
+
+```bash
+git push origin --all
+
+```
